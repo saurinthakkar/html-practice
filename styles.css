@@ -1,19 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
 body{
-    color: red;
-}
-
-h1{
-    color:blue
-}
-
-h2{
-    color:green
-}
-
-#lib-header{
-    color: hotpink;
-}
-
-.para{
-    color : yellowgreen;
+    font-family: 'Source Sans Pro', 
+    sans-serif;
 }
