@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 
+
+:root{
+
+    --primary-color:#1D4ED8
+
+}
+
 body{
     font-family: 'Source Sans Pro', 
     sans-serif;
@@ -8,11 +15,21 @@ body{
 /** containers **/
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+   padding : 0rem 1rem;
 }
 
 .center-container{
     max-width: 600px;
     margin: auto;
+}
+
+/** Links **/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link{
+    color:var(--primary-color)
 }
