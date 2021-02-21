@@ -4,3 +4,15 @@ body{
     font-family: 'Source Sans Pro', 
     sans-serif;
 }
+
+/** containers **/
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.center-container{
+    max-width: 600px;
+    margin: auto;
+}
