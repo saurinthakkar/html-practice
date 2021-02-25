@@ -63,6 +63,7 @@ hr{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand{
@@ -77,4 +78,8 @@ hr{
 
 .navigation .nav-pills{
     text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
 }
