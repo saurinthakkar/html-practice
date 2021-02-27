@@ -99,6 +99,7 @@ hr{
 }
 
 .hero .hero-heading{
+    text-align: center;
     color: var(--light-red);
 }
 
