@@ -19,6 +19,10 @@ hr {
 
 /**spaces**/
 
+.margin-bt{
+    margin-bottom: 6rem;
+}
+
 .padding-md {
     padding-bottom:2rem;
 }
@@ -106,6 +110,11 @@ hr {
     margin: auto;
 }
 
+.hero-img-blog{
+    width: 200px;
+    height: 200px;
+}
+
 .hero .hero-heading {
     text-align: center;
     color: var(--light-red);
@@ -153,5 +162,5 @@ hr {
 }
 
 .footer ul {
-    padding-inline-start
+    padding-inline-start;
 }
