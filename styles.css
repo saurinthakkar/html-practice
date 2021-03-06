@@ -11,7 +11,7 @@
 body {
     font-family: 'Source Sans Pro',
         sans-serif;
-    margin:0px;
+    margin: 0px;
 }
 
 hr {
@@ -47,11 +47,7 @@ hr {
     
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    
-    
-    
-    
+    padding: 0.5rem 1rem;    
 }
 
 .link-primary {
@@ -130,10 +126,11 @@ hr {
 }
 
 .hero .hero-img {
+    max-width: 80%;
     width: 350px;
     display: block;
     margin: auto;
-    max-width: 80%;
+    
 }
 
 .hero .hero-heading {
@@ -151,9 +148,12 @@ hr {
 
 .section {
     padding: 2rem;
+   
+
 }
 
 .section h1 {
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -188,12 +188,3 @@ hr {
     padding-inline-start: 0px;
 }
 
-/** projects **/
-.showcase-list {
-    padding: 2rem;
-}
-
-/** blogs **/
-.showcase-blog {
-    padding-bottom: 6rem;
-}
