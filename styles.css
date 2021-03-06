@@ -11,6 +11,7 @@
 body {
     font-family: 'Source Sans Pro',
         sans-serif;
+    margin:0px;
 }
 
 hr {
@@ -21,21 +22,15 @@ hr {
 
 /**spaces**/
 
-.margin-bt{
-    margin-bottom: 6rem;
+.margin-md{
+    margin: 2rem;
 }
 
-.padding-md {
-    padding-bottom:2rem;
-}
 
 /** containers **/
 
 .container {
     padding: 0rem 1rem;
-    display: flexbox;
-    
-
 }
 
 .container-center {
@@ -49,9 +44,12 @@ hr {
 /** Links **/
 
 .link {
+    
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    text-align: center;
+    
+    
     
     
 }
@@ -61,7 +59,9 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;    
     
 }
 
@@ -73,23 +73,20 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+
 }
 
 
-
-.container-link{
-
-    display: flex;
-    justify-items: center;
-    
-    
-    
-}
 
 /**lists**/
 
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 0px;
+
 }
 
 .list-item-inline {
@@ -108,7 +105,10 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    
+}
+.navigation .nav-pills {
+    text-align: right;
 }
 
 .navigation .link {
@@ -116,9 +116,7 @@ hr {
 
 }
 
-.navigation .nav-pills {
-    text-align: right;
-}
+
 
 .navigation .link-active {
     font-weight: bold;
@@ -132,20 +130,18 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    width: 350px;
     display: block;
     margin: auto;
-}
-
-.hero-img-blog{
-    width: 200px;
-    height: 200px;
+    max-width: 80%;
 }
 
 .hero .hero-heading {
     text-align: center;
+    padding-top: 1rem;
     color: var(--light-red);
 }
+
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
@@ -155,8 +151,6 @@ hr {
 
 .section {
     padding: 2rem;
-    
-    
 }
 
 .section h1 {
@@ -172,7 +166,7 @@ hr {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem;
+    padding: 4rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -187,9 +181,19 @@ hr {
 
 .footer .link {
     color: white;
-    margin: auto;
+    
 }
 
 .footer ul {
-    padding-inline-start:0rem;
+    padding-inline-start: 0px;
+}
+
+/** projects **/
+.showcase-list {
+    padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+    padding-bottom: 6rem;
 }
